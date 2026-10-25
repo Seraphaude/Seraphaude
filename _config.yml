@@ -12,6 +12,7 @@ show_excerpts: true
 
 header_pages:
   - about.md
+  - tags.md
   - ius.md
   - memor.md
 
