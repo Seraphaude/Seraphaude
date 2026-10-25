@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 標籤
+title: 索引
 permalink: /tags/
 ---
 
