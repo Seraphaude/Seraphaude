@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 楔子
+title: 弁言
 permalink: /about/
 ---
 
