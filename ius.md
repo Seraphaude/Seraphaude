@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 縷言絮說
+title: 言文行遠
 permalink: /ius/
 ---
 
