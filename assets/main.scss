@@ -4,8 +4,8 @@
 @import "minima";
 
 @media screen and (min-width: 600px) {
-  /* 在「弁言」左邊加一條直線，與兩個系列隔開 */
-  .site-nav .page-link[href$="/about/"] {
+  /* 在「縷言絮說」左邊加一條直線，與弁言、索引隔開 */
+  .site-nav .page-link[href$="/ius/"] {
     border-left: 1px solid #ddd;
     padding-left: 20px;
   }
