@@ -1,7 +1,6 @@
 title: 斷簡殘編
 description: 有路，咱沿路唱歌；無路，咱蹽溪過嶺
-author:
-  name: Seraphaude
+author: Seraphaude
 lang: zh-Hant-TW
 timezone: Asia/Taipei
 
@@ -20,3 +19,10 @@ permalink: /:year/:month/:title/
 
 plugins:
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author: Seraphaude
