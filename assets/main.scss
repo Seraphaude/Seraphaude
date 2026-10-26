@@ -1,0 +1,19 @@
+---
+---
+
+@import "minima";
+
+@media screen and (min-width: 600px) {
+  /* 在「弁言」左邊加一條直線，與兩個系列隔開 */
+  .site-nav .page-link[href$="/about/"] {
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+  }
+}
+
+/* 弁言、索引的字小一點、顏色淡一點 */
+.site-nav .page-link[href$="/about/"],
+.site-nav .page-link[href$="/tags/"] {
+  font-size: 0.9em;
+  color: #828282;
+}
