@@ -1,16 +1,39 @@
 ---
 ---
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap&text=%E6%96%B7%E7%B0%A1%E6%AE%98%E7%B7%A8");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&family=LXGW+WenKai+TC&display=swap");
 
 @import "minima";
 
-/* 網站名稱：放大並改用宋體 */
-.site-title {
-  font-family: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
-  font-size: 34px;
+/* ── 字型 ── */
+$font-song: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+$font-kai:  "LXGW WenKai TC", "Kaiti TC", "DFKai-SB", serif;
+
+/* 宋體：網站名稱、各種標題 */
+.site-title,
+.post-title,
+.post-list-heading,
+.post-link,
+.post-content h2,
+.post-content h3 {
+  font-family: $font-song;
   font-weight: 600;
+}
+
+.site-title {
+  font-size: 34px;
   letter-spacing: 2px;
+}
+
+.post-title {
+  letter-spacing: 1px;
+}
+
+/* 楷體：引文 */
+blockquote {
+  font-family: $font-kai;
+  font-style: normal;
+  letter-spacing: normal;
 }
 
 /* 隱藏首頁的 RSS 訂閱連結 */
@@ -19,7 +42,7 @@
 }
 
 @media screen and (min-width: 600px) {
-  /* 在「縷言絮說」左邊加一條直線，與弁言、索引隔開 */
+  /* 在「言文行遠」左邊加一條直線，與弁言、索引隔開 */
   .site-nav .page-link[href$="/ius/"] {
     border-left: 1px solid #ddd;
     padding-left: 20px;
